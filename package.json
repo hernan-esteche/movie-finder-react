@@ -1,0 +1,28 @@
+{
+	"name": "05-movie-finder",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"format": "pnpm exec biome format --write ./src",
+		"check": "pnpm exec biome check --write ./src",
+		"lint": "pnpm exec biome lint --write ./src"
+	},
+	"dependencies": {
+		"react": "^19.1.0",
+		"react-dom": "^19.1.0",
+		"use-debounce": "^10.0.5"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.1.3",
+		"@tailwindcss/vite": "^4.1.11",
+		"@types/react": "^19.1.8",
+		"@types/react-dom": "^19.1.6",
+		"@vitejs/plugin-react-swc": "^3.10.2",
+		"tailwindcss": "^4.1.11",
+		"vite": "^7.0.4"
+	}
+}
