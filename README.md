@@ -11,17 +11,18 @@ Este proyecto es una aplicación web para buscar películas de forma rápida y s
 
 ## Tecnologías utilizadas
 
-- **React**: Biblioteca para construir interfaces de usuario reactivas y escalables.
-- **Tailwind CSS**: Framework CSS utilitario que facilita estilos rápidos y adaptativos.
-- **Biome**: Linter y formateador para mantener el código limpio y con un estilo uniforme.
+- **React**: Biblioteca para construir interfaces de usuario.
+- **Vite**: Herramienta de construcción y bundling rápida y eficiente.
+- **Tailwind CSS**: Framework CSS utilitario para diseño flexible y responsivo.
+- **Biome**: Linter y formateador de código para asegurar calidad.
 
 ## Instalación y ejecución
 
-1. Clonar el repositorio
-2. Ejecutar `npm install` o `yarn` para instalar dependencias
-3. Correr `npm run dev` o `yarn dev` para levantar el servidor de desarrollo
+1. Clonar el repositorio  
+2. Ejecutar `pnpm install` para instalar dependencias  
+3. Correr `pnpm run dev` para levantar el servidor de desarrollo
 
-## Autor
+## ✨ Autor
 
 Desarrollado por Hernán Esteche.
 
